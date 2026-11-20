@@ -1,0 +1,14 @@
+{
+  "name": "smart-energy-monitoring-system",
+  "version": "1.0.0",
+  "description": "Smart Energy Monitoring Cloud System (Full-Stack IoT Telemetry)",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "simulate": "cd server && npm run simulate",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["cloud-computing", "smart-energy", "iot", "postgresql", "react"],
+  "author": "",
+  "license": "MIT"
+}
